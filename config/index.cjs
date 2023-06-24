@@ -13,19 +13,17 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'b176e6ddcfab0f3937c29446a13df158',
 
-  
-  
-
   USERS: [
     {
+      PROVINCE: '北京',
+      CITY: '北京',
       // 想要发送的人的名字
       name: 'SanXiaoXing', 
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o_cXM6TJkduGYjkM6pgNYWzqQjAU', 
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'EDHogCTMikWDMM0RFh87sxOalgQ4_Q0XhgRS6Z-YyLE',
-      PROVINCE: '北京',
-      CITY: '北京',
+     
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-02',
       festivals: [
@@ -48,16 +46,16 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
-    },
-  ],
-  {
+    }, 
+    {
       name: '蔡文博',
       id: 'o_cXM6TeI7sGXQsRYt6LGJjz5CE4',
       useTemplateId: 'EDHogCTMikWDMM0RFh87sxOalgQ4_Q0XhgRS6Z-YyLE',
       province: '河南',
       city: '安阳',
-      courseSchedule: null
     },
+  ],
+ 
 
   // 【推送完成提醒】模板id, 用来看自有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'Tomz0ljPYxxyzcmCuk-z_S1ZjOKjdq8GBYv8lE2hrMw',
