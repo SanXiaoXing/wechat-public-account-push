@@ -49,7 +49,7 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
-  ]
+  ],
   {
       name: '蔡文博',
       id: 'o_cXM6TeI7sGXQsRYt6LGJjz5CE4',
