@@ -28,7 +28,7 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
       
-      ---
+      hello: {{holidaytts.DATA}}
       
       {{moment_copyrighting.DATA}}
       
