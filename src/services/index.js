@@ -202,7 +202,7 @@ export const getHolidaytts = async () => {
   const url = 'https://wangxinleo.cn/api/wx-push/holiday/getHolidaytts'
   const res = await axios.get(url).catch((err) => err)
 
-  if (res.status === 200 && res.data && res.data.code === 0) {
+  if ( res.data && res.data.code === 0) {
     return res.data.tts
   }
   console.error('获取下一休息日tts: 发生错误', res)
