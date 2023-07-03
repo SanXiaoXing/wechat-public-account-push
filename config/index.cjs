@@ -15,15 +15,15 @@ const USER_CONFIG = {
   
   USERS: [
   {
-    "name":"SanXiaoXing",
-   "id":"o_cXM6TJkduGYjkM6pgNYWzqQjAU",
-   "useTemplateId":"Hm26duVZQDX346z_pjugfn1mOOmb8kOWu_oAuH06bQk",
-   "province":"北京",
-    "city":"北京",
-    "horoscopeDate":"08-02",
-    "horoscopeDateType":"今日",
-    "festivals":[{"type":"*生日","name":"SanXiaoXing","date":"08-02","year":"2000"}],
-    "customizedDateList":[]
+    name:"SanXiaoXing",
+    id:"o_cXM6TJkduGYjkM6pgNYWzqQjAU",
+    useTemplateId:"Hm26duVZQDX346z_pjugfn1mOOmb8kOWu_oAuH06bQk",
+    province:"北京",
+    city:"北京",
+    horoscopeDate:"08-02",
+    horoscopeDateType:"今日",
+    festivals:[{"type":"*生日","name":"SanXiaoXing","date":"08-02","year":"2000"}],
+    customizedDateList:[]
   }
   ],
     {
@@ -34,7 +34,7 @@ const USER_CONFIG = {
       city: '安阳',
     },
   ],
-  "SWITCH":{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":true,"earthyLoveWords":false,"momentCopyrighting":false,"poisonChickenSoup":false,"poetry":false,"horoscope":true,"birthdayMessage":true}}
+  SWITCH:{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":true,"earthyLoveWords":false,"momentCopyrighting":false,"poisonChickenSoup":false,"poetry":false,"horoscope":true,"birthdayMessage":true}}
  
 
   // 【推送完成提醒】模板id, 用来看自有没有发送成功的那个模板
