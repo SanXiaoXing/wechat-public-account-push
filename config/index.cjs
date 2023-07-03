@@ -15,17 +15,16 @@ const USER_CONFIG = {
   
   USERS: [
   {
-    name:"SanXiaoXing",
-    id:"o_cXM6TJkduGYjkM6pgNYWzqQjAU",
-    useTemplateId:"Hm26duVZQDX346z_pjugfn1mOOmb8kOWu_oAuH06bQk",
-    province:"北京",
-    city:"北京",
-    horoscopeDate:"08-02",
-    horoscopeDateType:"今日",
-    festivals:[{"type":"*生日","name":"SanXiaoXing","date":"08-02","year":"2000"}],
+    name: 'SanXiaoXing',
+    id: 'o_cXM6TJkduGYjkM6pgNYWzqQjAU',
+    useTemplateId: 'Hm26duVZQDX346z_pjugfn1mOOmb8kOWu_oAuH06bQk',
+    province: '北京',
+    city: '北京',
+    horoscopeDate: '08-02',
+    horoscopeDateType: '今日',
+    festivals:[{type: '*生日' , name: 'SanXiaoXing', date: '08-02', year: '2000'}],
     customizedDateList:[]
-  }
-  ],
+  },
     {
       name: '蔡文博',
       id: 'o_cXM6TeI7sGXQsRYt6LGJjz5CE4',
