@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o_cXM6TJkduGYjkM6pgNYWzqQjAU', 
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'eMO2kyD--JcAI9FjKrmzuZTbqCsbCaRlkp9GBBaI2Bg',
+      useTemplateId: 'b8Dd31CZOvggCKStfrcNcdWovS6mGmzxJrsUN2qYqPQ',
       province: '北京',
       city: '北京',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -49,6 +49,13 @@ const USER_CONFIG = {
       useTemplateId: 'Q4yyNQlwMDc9wlsbz6ykkWMT3oiZGBPI-HKbJVt0TEI',
       province: '河南',
       city: '安阳',
+    },
+    {
+      name: 'zbh',
+      id: 'o_cXM6Qq6FsTg9K3f3OeTmT7i1IM',
+      useTemplateId: 'Q4yyNQlwMDc9wlsbz6ykkWMT3oiZGBPI-HKbJVt0TEI',
+      province: '北京',
+      city: '北京',
     },
   ],
  
