@@ -35,16 +35,12 @@ const USER_CONFIG = {
         {
           type: '生日', name: 'SanXiaoXing', year: '2000', date: '08-02',
         },
-        {
-          type: '节日', name: '工作时间', year: '2023', date: '06-25',
-        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: '距离上班已经：', date: '2023-06-25' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     }, 
     {
