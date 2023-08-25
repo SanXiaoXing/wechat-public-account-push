@@ -39,7 +39,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: '距离上班已经：', date: '2023-06-25' },
+        { keyword: 'workDay', date: '2023-06-25' },
         // 结婚纪念日
       ],
     }, 
